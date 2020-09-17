@@ -19,5 +19,6 @@ class juniper(Router):
 		print ('Vlan cua thiet bi la:{0}' .format(vlan))
 
 cisco1 = cisco('Cisco')
+juniper1 = juniper('Juniper')
 cisco1.config_file('Cisco_v1.bin', 100)
 juniper1.config_file('juniper_v1.bin', 200)
